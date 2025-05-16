@@ -1,0 +1,16 @@
+# Copyright 2024 Lucas DRAESCHER <lucas.draescher@clever-cloud.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require cargo [ debug=true rust_minimum_version=1.66.0 ] \
+        github [ force_git_clone=true user="tvdu29" pn="RedisJSON" branch="master" ]
+
+
+SUMMARY="RedisJSON - a JSON data type for Redis"
+
+PLATFORMS="~amd64"
+
+LICENCES="|| ( AGPL-3 SSPL-1 )"
+SLOT="0"
+
+DEPENDENCIES=""
+MYOPTIONS=""
