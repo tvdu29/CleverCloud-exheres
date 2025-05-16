@@ -1,0 +1,17 @@
+# Copyright 2024 Lucas DRAESCHER <lucas.draescher@clever-cloud.com>
+# Distributed under the terms of the GNU General Public License v2
+
+myexparam min_version
+myexparam max_version
+
+require github [ tag="v${PV}" ]
+require redis [ min_version="$(exparam min_version)" max_version="$(exparam max_version)" ]
+
+SUMMARY="RedisJSON - a JSON data type for Redis"
+
+LICENCES="|| ( AGPL-3 SSPL-1 )"
+SLOT="0"
+
+DEPENDENCIES=""
+MYOPTIONS=""
+

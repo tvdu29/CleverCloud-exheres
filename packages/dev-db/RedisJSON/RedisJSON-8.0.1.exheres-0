@@ -1,0 +1,9 @@
+# Copyright 2024 Lucas DRAESCHER <lucas.draescher@clever-cloud.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require RedisJSON [ min_version="8.0.1" max_version="8.0.1" ]
+
+PLATFORMS="~amd64"
+
+DEFAULT_SRC_COMPILE_PARAMS=( OPTFLAGS='' )
+
