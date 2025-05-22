@@ -20,3 +20,4 @@ SCM_BRANCH="master"
 
 require scm-git
 
+PLATFORMS="~amd64"
