@@ -2,18 +2,29 @@
 # Distributed under the terms of the GNU General Public License v2
 
 SCM_SECONDARY_REPOSITORIES="LibMR RedisModulesSDK cpu_features fast_double_parser readies"
-SCM_EXTERNAL_REFS="deps/LibMR:LibMR deps/RedisModulesSDK:RedisModulesSDK deps/cpu_features:cpu_features deps/fast_double_parser:fast_double_parser deps/readies:readies"
+SCM_EXTERNAL_REFS="\
+    deps/LibMR:LibMR \
+    deps/RedisModulesSDK:RedisModulesSDK \
+    deps/cpu_features:cpu_features \
+    deps/fast_double_parser:fast_double_parser \
+    deps/readies:readies \
+    deps/LibMR/deps/hiredis:hiredis \
+    deps/LibMR/deps/libevent:libevent"
 SCM_LibMR_REPOSITORY="https://github.com/RedisGears/LibMR.git"
 SCM_RedisModulesSDK_REPOSITORY="https://github.com/RedisLabs/RedisModulesSDK.git"
 SCM_cpu_features_REPOSITORY="https://github.com/google/cpu_features.git"
 SCM_fast_double_parser_REPOSITORY="https://github.com/lemire/fast_double_parser.git"
 SCM_readies_REPOSITORY="https://github.com/RedisLabsModules/readies.git"
+SCM_hiredis_REPOSITORY="https://github.com/redis/hiredis.git"
+SCM_libevent_REPOSITORY="https://github.com/libevent/libevent.git"
 
 SCM_LibMR_REVISION="0fd214f1b94d966c7c378f6c5c352cdd340b1933"
 SCM_RedisModulesSDK_REVISION="40d4bfa813e88f5e3dddcfdd2ef36215e1aff202"
 SCM_cpu_features_REVISION="f1801f0ca1550c1e86425e0b44022a17d0916523"
 SCM_fast_double_parser_REVISION="47d76a06f57b19cb2e816611297071ba663b7223"
 SCM_readies_REVISION="7fc8e62b24d3f7ff01096d83f14cbc216ac0e2f0"
+SCM_hiredis_REVISION="d5b4c69b7113213c1da3a0ccbfd1ee1b40443c7a"
+SCM_libevent_REVISION="5df3037d10556bfcb675bc73e516978b75fc7bc7"
 
 SCM_REPOSITORY="https://github.com/RedisTimeSeries/RedisTimeSeries.git"
 SCM_BRANCH="master"
